@@ -1,7 +1,7 @@
 # Cheap-deck
 Build your own macro deck for cheap
 
-Features
+"Features"
 
 | Column 1 | Column 2 | Column 3 |
 |----------|----------|----------|
