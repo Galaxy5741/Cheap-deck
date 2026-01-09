@@ -144,7 +144,7 @@ Trigger complex actions with single button press:
 ### 3D Printed Enclosures
 
 **Designing Your Enclosure:**
-- **Shapr3D**: Professional CAD for precise mechanical design (free for hobbyists)
+- **Shapr3D**: Professional CAD for precise mechanical design (free for hobbyists and start 3D modeling in like 5-10 minutes)
 - **Tinkercad**: Beginner-friendly browser-based 3D modeling (completely free)
 - Design around your specific slider configuration and Arduino board
 - Include cable management and mounting considerations
