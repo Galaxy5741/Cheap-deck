@@ -34,13 +34,19 @@ Together, these create a comprehensive control surface that rivals commercial so
 - Arduino board (Uno, Leonardo, or Nano recommended)
 - Linear potentiometers/sliders (quantity depends on desired channels)
 - USB cable for Arduino connection
-- Enclosure (optional but recommended)
+- **Enclosure**: 3D printed holder (highly recommended for clean desktop integration)
+  - Design tools: [Shapr3D](https://www.shapr3d.com/), [Tinkercad](https://www.tinkercad.com/) (free, browser-based)
+  - No printer? Use [JLC3DP](https://jlc3dp.com) for affordable 3D printing service
 - Wiring and basic soldering equipment
 
-### For Macro Deck
-- Windows PC (primary machine or secondary device)
-- Network connection (for remote control scenarios)
-- Phone
+### For Macro Deck / Stream Pi
+- Windows PC or Linux machine (your primary workstation)
+- **Optional**: Dedicated device for control interface
+  - Old Android tablet or phone (touchscreen interface)
+  - Raspberry Pi with touchscreen
+  - Secondary laptop or desktop
+  - Any device with web browser (for Stream Pi)
+- Network connection (if using dedicated control device)
 
 ## Software Requirements
 
@@ -135,6 +141,29 @@ Trigger complex actions with single button press:
 
 ## Customization
 
+### 3D Printed Enclosures
+
+**Designing Your Enclosure:**
+- **Shapr3D**: Professional CAD for precise mechanical design (free for hobbyists)
+- **Tinkercad**: Beginner-friendly browser-based 3D modeling (completely free)
+- Design around your specific slider configuration and Arduino board
+- Include cable management and mounting considerations
+
+**Manufacturing Options:**
+1. **Own 3D Printer**: Print at home if you have access
+2. **JLC3DP**: Professional 3D printing service
+   - Upload STL files directly to [jlc3dp.com](https://jlc3dp.com)
+   - Multiple material options (PLA, PETG, Resin)
+   - Affordable pricing with fast turnaround
+   - International shipping available
+
+**Design Tips:**
+- Leave tolerance for slider movement (0.5-1mm clearance)
+- Include mounting holes for desk placement
+- Add cutouts for USB cable routing
+- Consider ventilation if Arduino generates heat
+- Design modular sections for easier printing
+
 ### deej Extensions
 - Modify Arduino code for additional features
 - Add LED indicators for visual feedback
@@ -152,9 +181,12 @@ Trigger complex actions with single button press:
 | Component | Cheap Deck | Stream Deck |
 |-----------|------------|-------------|
 | Base Hardware | ~€20-40 (Arduino + components) | €149+ |
+| Enclosure | €5-15 (3D printed via JLC3DP) or free (own printer) | Included |
 | Volume Control | Included (deej) | Requires separate hardware |
 | Customization | Fully open-source | Limited to Elgato ecosystem |
-| **Total Investment** | **~€20-40** | **€149+** |
+| **Total Investment** | **~€25-55** | **€149+** |
+
+*Even with professional 3D printing service, you're saving €100+ compared to Stream Deck*
 
 ## Advantages Over Stream Deck
 
@@ -187,7 +219,8 @@ Trigger complex actions with single button press:
 
 - [ ] Integration between deej and Macro Deck for unified control
 - [ ] Custom PCB design for cleaner deej builds
-- [ ] 3D-printed enclosures for both components
+- [x] 3D-printed enclosures for professional desktop appearance
+- [ ] Community enclosure design repository
 - [ ] Advanced lighting effects with addressable LEDs
 - [ ] Profile switching automation based on active application
 
@@ -198,6 +231,9 @@ Trigger complex actions with single button press:
 - [Stream Pi Official Site](https://stream-pi.com/)
 - [Stream Pi GitHub](https://github.com/stream-pi)
 - [Arduino Documentation](https://www.arduino.cc/reference/en/)
+- [Shapr3D](https://www.shapr3d.com/) - Professional 3D CAD software
+- [Tinkercad](https://www.tinkercad.com/) - Free browser-based 3D modeling
+- [JLC3DP](https://jlc3dp.com) - Affordable 3D printing service
 
 ## Contributing
 
