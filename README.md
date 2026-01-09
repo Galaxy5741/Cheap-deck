@@ -216,14 +216,6 @@ Trigger complex actions with single button press:
 - **Client connection failed**: Ensure server and client are on same network
 - **Plugin compatibility**: Check Stream Pi version matches plugin requirements
 
-## Future Enhancements
-
-- [ ] Integration between deej and Macro Deck for unified control
-- [ ] Custom PCB design for cleaner deej builds
-- [x] 3D-printed enclosures for professional desktop appearance
-- [ ] Community enclosure design repository
-- [ ] Advanced lighting effects with addressable LEDs
-- [ ] Profile switching automation based on active application
 
 ## Resources
 
@@ -242,7 +234,7 @@ Improvements, modifications, and creative implementations welcome. This project 
 
 ## License
 
-This project documentation is released under MIT License. Individual components (deej, Macro Deck) retain their respective licenses.
+This project documentation is released under with no license. Individual components (deej, Macro Deck) retain their respective licenses.
 
 ---
 
