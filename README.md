@@ -148,6 +148,7 @@ Trigger complex actions with single button press:
 - **Tinkercad**: Beginner-friendly browser-based 3D modeling (completely free)
 - Design around your specific slider configuration and Arduino board
 - Include cable management and mounting considerations
+- There is also an example file called Phone+holder.stp
 
 **Manufacturing Options:**
 1. **Own 3D Printer**: Print at home if you have access
